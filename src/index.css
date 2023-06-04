@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EEEEEE;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.heading{
+    margin: 2rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.card_body{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.dividers{
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0;
+}
+
+.divider{
+    width: 100px;
+    height: 3px;
+    background-color: green;
+}
+
+.card{
+    width: 400px;
+    background-color: white;
+    margin: 2rem;    
+}
+
+.card_content{
+    padding: 1rem;
+}
+
+.card_content h2{
+    margin-bottom: 1rem;
+}
+
+.card_content p{
+    line-height: 1.5;
+}
+
+.card_image{
+    position: relative;
+}
+
+.card_image img{
+    width: 100%;
+    height: 300px;
+}
+
+.read{
+    color: green;
+    font-weight: 700;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.price{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: green;
+    color: white;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+}
+
+.button{
+    width: 100%;
+    padding: 0 1rem 1rem;
+}
+
+.button .btn{
+    width: 100%;
+    border: 2px solid green;
+    outline: none;
+    background: none;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    color: green;
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+
+.loading{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.refreash_div{
+    margin: 2rem;
+}
+
+.refreash_div a {
+    margin: 4rem;
+    padding: 0.5rem 1rem;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
